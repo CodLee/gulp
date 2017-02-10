@@ -56,7 +56,10 @@ gulp.task("reload",function(){
 	gulp.src("./dist/html/*.html").pipe(connect.reload());
 });
 
-
+// 测试命令
+gulp.task('test',function(){
+	console.info('gulp测试');
+});
 
 //开启web服务器
 gulp.task("server",function(){

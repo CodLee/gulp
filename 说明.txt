@@ -1,0 +1,16 @@
+1. 新建配置文件 npm init //建立package.json文件 
+2. 安装需要配置的依赖文件 
+   npm install gulp --save
+   //产品模式用dependencies，开发模式用devDep
+   ....(依赖包参看图 gulp.png)
+3. 新建gulpfile.js文件 文件名不可更改
+
+4. 新建文件夹src  dest等,放入要编辑的内容
+
+5. 在gulpfile.js中编写命令,
+
+6. cmd窗口 运行gulp执行命令
+   gulp 	//执行默认 default 命令
+   gulp xxx  //执行某一命令
+
+7. gulp各项命令间gulpfile.js
